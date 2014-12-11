@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Classes/Record.o \
 	${OBJECTDIR}/Classes/Sales_item.o \
 	${OBJECTDIR}/Classes/Screen.o \
+	${OBJECTDIR}/Classes/Static_Class_member.o \
 	${OBJECTDIR}/Classes/Test_Classes.o \
 	${OBJECTDIR}/Classes/Window_Mgr.o \
 	${OBJECTDIR}/Classes/misc.o \
@@ -95,6 +96,11 @@ ${OBJECTDIR}/Classes/Screen.o: Classes/Screen.cpp
 	${MKDIR} -p ${OBJECTDIR}/Classes
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Classes/Screen.o Classes/Screen.cpp
+
+${OBJECTDIR}/Classes/Static_Class_member.o: Classes/Static_Class_member.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Classes
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Classes/Static_Class_member.o Classes/Static_Class_member.cpp
 
 ${OBJECTDIR}/Classes/Test_Classes.o: Classes/Test_Classes.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Classes

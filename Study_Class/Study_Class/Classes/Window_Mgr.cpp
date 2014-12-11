@@ -21,4 +21,3 @@ Window_Mgr::Window_Mgr(const Window_Mgr& orig)
 Window_Mgr::~Window_Mgr(void) 
 {
 }
-

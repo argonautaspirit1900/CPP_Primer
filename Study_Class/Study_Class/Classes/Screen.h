@@ -62,11 +62,20 @@
 		/* 友元 (friend) 關係
 		 * 
 		 * 友元機制允許一個類將對其非公有成員的訪問權授予制定的函數或類
+		 *
+		 * （注 ： 目前友元關係還未弄懂， 待到後續來研究。
+		 *        徐贊備註 (2014-12-11)
+		 *  ）
+		friend Window_Mgr& Window_Mgr::relocate(Screen::index	r, 
+												Screen::index	c,
+												Screen&			s);	// Window_Mgr member can access the private parts of class Screen
+		 *
+		 * 
+		 * <<<<<<<<<<<<<<<<<<<<< 待續
 		 */
-		friend class Window_Mgr;	// Window_Mgr member can access the private parts of class Screen
 		
 	private:
-		std::string contents;		
+		std::string contents;
 		#if 0
 			std::string::size_type cursor;
 			std::string::size_type height;
