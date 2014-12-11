@@ -8,7 +8,6 @@
 *.dep
 *.d
 */private/*.*
-*.xml
 
 # Compiled Object files
 *.slo
