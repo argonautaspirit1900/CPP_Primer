@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		7F3100FB1A27943100328052 /* Study_Class_Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F3100FA1A27943100328052 /* Study_Class_Main.cpp */; };
 		7F3101031A27948700328052 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F3101011A27948700328052 /* Test.cpp */; };
-		7F3101071A27951600328052 /* Sales_item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F3101051A27951600328052 /* Sales_item.cpp */; };
-		7F45B6521A2B9BD4006A6D82 /* ConstRef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F45B6511A2B9BD4006A6D82 /* ConstRef.cpp */; };
-		7F6F07201A394A5700AD0643 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F071E1A394A5700AD0643 /* misc.cpp */; };
-		7F6F07231A39871000AD0643 /* Window_Mgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F07211A39871000AD0643 /* Window_Mgr.cpp */; };
-		7F71A9291A27BDE9007DF630 /* Record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71A9271A27BDE9007DF630 /* Record.cpp */; };
-		7F71A92C1A288C4B007DF630 /* Class_Objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71A92A1A288C4B007DF630 /* Class_Objects.cpp */; };
-		7F735AFA1A27964D0014E199 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F735AF81A27964D0014E199 /* Screen.cpp */; };
-		7F735AFD1A27968F0014E199 /* Test_Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F735AFB1A27968F0014E199 /* Test_Classes.cpp */; };
+		7F6F07391A39BDBB00AD0643 /* Class_Objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F07291A39BDBB00AD0643 /* Class_Objects.cpp */; };
+		7F6F073A1A39BDBB00AD0643 /* ConstRef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F072B1A39BDBB00AD0643 /* ConstRef.cpp */; };
+		7F6F073B1A39BDBB00AD0643 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F072D1A39BDBB00AD0643 /* misc.cpp */; };
+		7F6F073C1A39BDBB00AD0643 /* Record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F072F1A39BDBB00AD0643 /* Record.cpp */; };
+		7F6F073D1A39BDBB00AD0643 /* Sales_item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F07311A39BDBB00AD0643 /* Sales_item.cpp */; };
+		7F6F073E1A39BDBB00AD0643 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F07331A39BDBB00AD0643 /* Screen.cpp */; };
+		7F6F073F1A39BDBB00AD0643 /* Test_Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F07351A39BDBB00AD0643 /* Test_Classes.cpp */; };
+		7F6F07401A39BDBB00AD0643 /* Window_Mgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F07371A39BDBB00AD0643 /* Window_Mgr.cpp */; };
+		7F6F07461A39BDEF00AD0643 /* Access_Static_Member.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F07421A39BDEF00AD0643 /* Access_Static_Member.cpp */; };
+		7F6F07471A39BDEF00AD0643 /* Static_Class_member.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F07441A39BDEF00AD0643 /* Static_Class_member.cpp */; };
 		7FE8F42C1A28F4C8003BFECF /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8F42B1A28F4C8003BFECF /* Makefile */; };
 /* End PBXBuildFile section */
 
@@ -37,22 +39,26 @@
 		7F3100FA1A27943100328052 /* Study_Class_Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Study_Class_Main.cpp; sourceTree = "<group>"; };
 		7F3101011A27948700328052 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 		7F3101021A27948700328052 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		7F3101051A27951600328052 /* Sales_item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sales_item.cpp; path = Classes/Sales_item.cpp; sourceTree = "<group>"; };
-		7F3101061A27951600328052 /* Sales_item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sales_item.h; path = Classes/Sales_item.h; sourceTree = "<group>"; };
-		7F45B6501A2B9BBD006A6D82 /* ConstRef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConstRef.h; path = Classes/ConstRef.h; sourceTree = "<group>"; };
-		7F45B6511A2B9BD4006A6D82 /* ConstRef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConstRef.cpp; path = Classes/ConstRef.cpp; sourceTree = "<group>"; };
-		7F6F071E1A394A5700AD0643 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = misc.cpp; path = Classes/misc.cpp; sourceTree = "<group>"; };
-		7F6F071F1A394A5700AD0643 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = misc.h; path = Classes/misc.h; sourceTree = "<group>"; };
-		7F6F07211A39871000AD0643 /* Window_Mgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Window_Mgr.cpp; path = Classes/Window_Mgr.cpp; sourceTree = "<group>"; };
-		7F6F07221A39871000AD0643 /* Window_Mgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Window_Mgr.h; path = Classes/Window_Mgr.h; sourceTree = "<group>"; };
-		7F71A9271A27BDE9007DF630 /* Record.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Record.cpp; path = Classes/Record.cpp; sourceTree = "<group>"; };
-		7F71A9281A27BDE9007DF630 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Record.h; path = Classes/Record.h; sourceTree = "<group>"; };
-		7F71A92A1A288C4B007DF630 /* Class_Objects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Class_Objects.cpp; path = Classes/Class_Objects.cpp; sourceTree = "<group>"; };
-		7F71A92B1A288C4B007DF630 /* Class_Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Class_Objects.h; path = Classes/Class_Objects.h; sourceTree = "<group>"; };
-		7F735AF81A27964D0014E199 /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Screen.cpp; path = Classes/Screen.cpp; sourceTree = "<group>"; };
-		7F735AF91A27964D0014E199 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Screen.h; path = Classes/Screen.h; sourceTree = "<group>"; };
-		7F735AFB1A27968F0014E199 /* Test_Classes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Test_Classes.cpp; path = Classes/Test_Classes.cpp; sourceTree = "<group>"; };
-		7F735AFC1A27968F0014E199 /* Test_Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test_Classes.h; path = Classes/Test_Classes.h; sourceTree = "<group>"; };
+		7F6F07291A39BDBB00AD0643 /* Class_Objects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Class_Objects.cpp; path = Classes/Class_Objects.cpp; sourceTree = "<group>"; };
+		7F6F072A1A39BDBB00AD0643 /* Class_Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Class_Objects.h; path = Classes/Class_Objects.h; sourceTree = "<group>"; };
+		7F6F072B1A39BDBB00AD0643 /* ConstRef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConstRef.cpp; path = Classes/ConstRef.cpp; sourceTree = "<group>"; };
+		7F6F072C1A39BDBB00AD0643 /* ConstRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstRef.h; path = Classes/ConstRef.h; sourceTree = "<group>"; };
+		7F6F072D1A39BDBB00AD0643 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = misc.cpp; path = Classes/misc.cpp; sourceTree = "<group>"; };
+		7F6F072E1A39BDBB00AD0643 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = misc.h; path = Classes/misc.h; sourceTree = "<group>"; };
+		7F6F072F1A39BDBB00AD0643 /* Record.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Record.cpp; path = Classes/Record.cpp; sourceTree = "<group>"; };
+		7F6F07301A39BDBB00AD0643 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Record.h; path = Classes/Record.h; sourceTree = "<group>"; };
+		7F6F07311A39BDBB00AD0643 /* Sales_item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sales_item.cpp; path = Classes/Sales_item.cpp; sourceTree = "<group>"; };
+		7F6F07321A39BDBB00AD0643 /* Sales_item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sales_item.h; path = Classes/Sales_item.h; sourceTree = "<group>"; };
+		7F6F07331A39BDBB00AD0643 /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Screen.cpp; path = Classes/Screen.cpp; sourceTree = "<group>"; };
+		7F6F07341A39BDBB00AD0643 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Screen.h; path = Classes/Screen.h; sourceTree = "<group>"; };
+		7F6F07351A39BDBB00AD0643 /* Test_Classes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Test_Classes.cpp; path = Classes/Test_Classes.cpp; sourceTree = "<group>"; };
+		7F6F07361A39BDBB00AD0643 /* Test_Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test_Classes.h; path = Classes/Test_Classes.h; sourceTree = "<group>"; };
+		7F6F07371A39BDBB00AD0643 /* Window_Mgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Window_Mgr.cpp; path = Classes/Window_Mgr.cpp; sourceTree = "<group>"; };
+		7F6F07381A39BDBB00AD0643 /* Window_Mgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Window_Mgr.h; path = Classes/Window_Mgr.h; sourceTree = "<group>"; };
+		7F6F07421A39BDEF00AD0643 /* Access_Static_Member.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Access_Static_Member.cpp; path = Classes/Access_Static_Member/Access_Static_Member.cpp; sourceTree = "<group>"; };
+		7F6F07431A39BDEF00AD0643 /* Access_Static_Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Access_Static_Member.h; path = Classes/Access_Static_Member/Access_Static_Member.h; sourceTree = "<group>"; };
+		7F6F07441A39BDEF00AD0643 /* Static_Class_member.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Static_Class_member.cpp; path = Classes/Access_Static_Member/Static_Class_member.cpp; sourceTree = "<group>"; };
+		7F6F07451A39BDEF00AD0643 /* Static_Class_Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Static_Class_Member.h; path = Classes/Access_Static_Member/Static_Class_Member.h; sourceTree = "<group>"; };
 		7FE8F42B1A28F4C8003BFECF /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +92,8 @@
 		7F3100F91A27943100328052 /* Study_Class */ = {
 			isa = PBXGroup;
 			children = (
+				7F6F07281A39BDA200AD0643 /* Classes */,
 				7FE8F42B1A28F4C8003BFECF /* Makefile */,
-				7F3101041A2794DF00328052 /* Classes */,
 				7F3100FA1A27943100328052 /* Study_Class_Main.cpp */,
 				7F3101011A27948700328052 /* Test.cpp */,
 				7F3101021A27948700328052 /* Test.h */,
@@ -95,27 +101,39 @@
 			path = Study_Class;
 			sourceTree = "<group>";
 		};
-		7F3101041A2794DF00328052 /* Classes */ = {
+		7F6F07281A39BDA200AD0643 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7F6F07211A39871000AD0643 /* Window_Mgr.cpp */,
-				7F6F07221A39871000AD0643 /* Window_Mgr.h */,
-				7F6F071E1A394A5700AD0643 /* misc.cpp */,
-				7F6F071F1A394A5700AD0643 /* misc.h */,
-				7F3101051A27951600328052 /* Sales_item.cpp */,
-				7F3101061A27951600328052 /* Sales_item.h */,
-				7F735AF81A27964D0014E199 /* Screen.cpp */,
-				7F735AF91A27964D0014E199 /* Screen.h */,
-				7F735AFB1A27968F0014E199 /* Test_Classes.cpp */,
-				7F735AFC1A27968F0014E199 /* Test_Classes.h */,
-				7F71A9271A27BDE9007DF630 /* Record.cpp */,
-				7F71A9281A27BDE9007DF630 /* Record.h */,
-				7F71A92A1A288C4B007DF630 /* Class_Objects.cpp */,
-				7F71A92B1A288C4B007DF630 /* Class_Objects.h */,
-				7F45B6501A2B9BBD006A6D82 /* ConstRef.h */,
-				7F45B6511A2B9BD4006A6D82 /* ConstRef.cpp */,
+				7F6F07411A39BDDF00AD0643 /* Access_Static_Member */,
+				7F6F07291A39BDBB00AD0643 /* Class_Objects.cpp */,
+				7F6F072A1A39BDBB00AD0643 /* Class_Objects.h */,
+				7F6F072B1A39BDBB00AD0643 /* ConstRef.cpp */,
+				7F6F072C1A39BDBB00AD0643 /* ConstRef.h */,
+				7F6F072D1A39BDBB00AD0643 /* misc.cpp */,
+				7F6F072E1A39BDBB00AD0643 /* misc.h */,
+				7F6F072F1A39BDBB00AD0643 /* Record.cpp */,
+				7F6F07301A39BDBB00AD0643 /* Record.h */,
+				7F6F07311A39BDBB00AD0643 /* Sales_item.cpp */,
+				7F6F07321A39BDBB00AD0643 /* Sales_item.h */,
+				7F6F07331A39BDBB00AD0643 /* Screen.cpp */,
+				7F6F07341A39BDBB00AD0643 /* Screen.h */,
+				7F6F07351A39BDBB00AD0643 /* Test_Classes.cpp */,
+				7F6F07361A39BDBB00AD0643 /* Test_Classes.h */,
+				7F6F07371A39BDBB00AD0643 /* Window_Mgr.cpp */,
+				7F6F07381A39BDBB00AD0643 /* Window_Mgr.h */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		7F6F07411A39BDDF00AD0643 /* Access_Static_Member */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F07421A39BDEF00AD0643 /* Access_Static_Member.cpp */,
+				7F6F07431A39BDEF00AD0643 /* Access_Static_Member.h */,
+				7F6F07441A39BDEF00AD0643 /* Static_Class_member.cpp */,
+				7F6F07451A39BDEF00AD0643 /* Static_Class_Member.h */,
+			);
+			name = Access_Static_Member;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,17 +192,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F735AFA1A27964D0014E199 /* Screen.cpp in Sources */,
 				7F3100FB1A27943100328052 /* Study_Class_Main.cpp in Sources */,
-				7F6F07231A39871000AD0643 /* Window_Mgr.cpp in Sources */,
-				7F735AFD1A27968F0014E199 /* Test_Classes.cpp in Sources */,
-				7F6F07201A394A5700AD0643 /* misc.cpp in Sources */,
+				7F6F07461A39BDEF00AD0643 /* Access_Static_Member.cpp in Sources */,
+				7F6F07391A39BDBB00AD0643 /* Class_Objects.cpp in Sources */,
+				7F6F07401A39BDBB00AD0643 /* Window_Mgr.cpp in Sources */,
+				7F6F073F1A39BDBB00AD0643 /* Test_Classes.cpp in Sources */,
+				7F6F073A1A39BDBB00AD0643 /* ConstRef.cpp in Sources */,
+				7F6F073C1A39BDBB00AD0643 /* Record.cpp in Sources */,
 				7F3101031A27948700328052 /* Test.cpp in Sources */,
-				7F71A9291A27BDE9007DF630 /* Record.cpp in Sources */,
-				7F71A92C1A288C4B007DF630 /* Class_Objects.cpp in Sources */,
+				7F6F073D1A39BDBB00AD0643 /* Sales_item.cpp in Sources */,
 				7FE8F42C1A28F4C8003BFECF /* Makefile in Sources */,
-				7F3101071A27951600328052 /* Sales_item.cpp in Sources */,
-				7F45B6521A2B9BD4006A6D82 /* ConstRef.cpp in Sources */,
+				7F6F073B1A39BDBB00AD0643 /* misc.cpp in Sources */,
+				7F6F073E1A39BDBB00AD0643 /* Screen.cpp in Sources */,
+				7F6F07471A39BDEF00AD0643 /* Static_Class_member.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

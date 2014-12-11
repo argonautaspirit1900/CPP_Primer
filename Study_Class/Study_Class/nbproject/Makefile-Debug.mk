@@ -35,12 +35,13 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Classes/Access_Static_Member/Access_Static_Member.o \
+	${OBJECTDIR}/Classes/Access_Static_Member/Static_Class_member.o \
 	${OBJECTDIR}/Classes/Class_Objects.o \
 	${OBJECTDIR}/Classes/ConstRef.o \
 	${OBJECTDIR}/Classes/Record.o \
 	${OBJECTDIR}/Classes/Sales_item.o \
 	${OBJECTDIR}/Classes/Screen.o \
-	${OBJECTDIR}/Classes/Static_Class_member.o \
 	${OBJECTDIR}/Classes/Test_Classes.o \
 	${OBJECTDIR}/Classes/Window_Mgr.o \
 	${OBJECTDIR}/Classes/misc.o \
@@ -72,6 +73,16 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/study_class: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/study_class ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/Classes/Access_Static_Member/Access_Static_Member.o: Classes/Access_Static_Member/Access_Static_Member.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Classes/Access_Static_Member
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Classes/Access_Static_Member/Access_Static_Member.o Classes/Access_Static_Member/Access_Static_Member.cpp
+
+${OBJECTDIR}/Classes/Access_Static_Member/Static_Class_member.o: Classes/Access_Static_Member/Static_Class_member.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Classes/Access_Static_Member
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Classes/Access_Static_Member/Static_Class_member.o Classes/Access_Static_Member/Static_Class_member.cpp
+
 ${OBJECTDIR}/Classes/Class_Objects.o: Classes/Class_Objects.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Classes
 	${RM} "$@.d"
@@ -96,11 +107,6 @@ ${OBJECTDIR}/Classes/Screen.o: Classes/Screen.cpp
 	${MKDIR} -p ${OBJECTDIR}/Classes
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Classes/Screen.o Classes/Screen.cpp
-
-${OBJECTDIR}/Classes/Static_Class_member.o: Classes/Static_Class_member.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Classes
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Classes/Static_Class_member.o Classes/Static_Class_member.cpp
 
 ${OBJECTDIR}/Classes/Test_Classes.o: Classes/Test_Classes.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Classes

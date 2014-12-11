@@ -2,6 +2,12 @@
 <configurationDescriptor version="95">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="f1" displayName="Classes" projectFiles="true">
+      <logicalFolder name="f1" displayName="Access_Static_Member" projectFiles="true">
+        <itemPath>Classes/Access_Static_Member/Access_Static_Member.cpp</itemPath>
+        <itemPath>Classes/Access_Static_Member/Access_Static_Member.h</itemPath>
+        <itemPath>Classes/Access_Static_Member/Static_Class_Member.h</itemPath>
+        <itemPath>Classes/Access_Static_Member/Static_Class_member.cpp</itemPath>
+      </logicalFolder>
       <itemPath>Classes/Class_Objects.cpp</itemPath>
       <itemPath>Classes/Class_Objects.h</itemPath>
       <itemPath>Classes/ConstRef.cpp</itemPath>
@@ -12,7 +18,6 @@
       <itemPath>Classes/Sales_item.h</itemPath>
       <itemPath>Classes/Screen.cpp</itemPath>
       <itemPath>Classes/Screen.h</itemPath>
-      <itemPath>Classes/Static_Class_Member.h</itemPath>
       <itemPath>Classes/Test_Classes.cpp</itemPath>
       <itemPath>Classes/Test_Classes.h</itemPath>
       <itemPath>Classes/Window_Mgr.cpp</itemPath>
@@ -24,7 +29,6 @@
       <itemPath>Test.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
-      <itemPath>Classes/Static_Class_member.cpp</itemPath>
       <itemPath>Study_Class_Main.cpp</itemPath>
       <itemPath>Test.cpp</itemPath>
     </logicalFolder>
@@ -52,6 +56,26 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Classes/Access_Static_Member/Access_Static_Member.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Classes/Access_Static_Member/Access_Static_Member.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Classes/Access_Static_Member/Static_Class_Member.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Classes/Access_Static_Member/Static_Class_member.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
       <item path="Classes/Class_Objects.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/Class_Objects.h" ex="false" tool="3" flavor2="0">
@@ -71,10 +95,6 @@
       <item path="Classes/Screen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/Screen.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Classes/Static_Class_Member.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Classes/Static_Class_member.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/Test_Classes.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -115,6 +135,26 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Classes/Access_Static_Member/Access_Static_Member.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Classes/Access_Static_Member/Access_Static_Member.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Classes/Access_Static_Member/Static_Class_Member.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Classes/Access_Static_Member/Static_Class_member.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
       <item path="Classes/Class_Objects.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/Class_Objects.h" ex="false" tool="3" flavor2="0">
@@ -134,10 +174,6 @@
       <item path="Classes/Screen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/Screen.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Classes/Static_Class_Member.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Classes/Static_Class_member.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/Test_Classes.cpp" ex="false" tool="1" flavor2="0">
       </item>
