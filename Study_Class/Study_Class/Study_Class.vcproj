@@ -206,6 +206,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Classes\misc.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Classes\misc.h"
+				>
+			</File>
+			<File
 				RelativePath=".\Classes\Record.cpp"
 				>
 			</File>
@@ -237,7 +245,39 @@
 				RelativePath=".\Classes\Test_Classes.h"
 				>
 			</File>
+			<File
+				RelativePath=".\Classes\Window_Mgr.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Classes\Window_Mgr.h"
+				>
+			</File>
+			<Filter
+				Name="Access_Static_Member"
+				>
+				<File
+					RelativePath=".\Classes\Access_Static_Member\Access_Static_Member.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Classes\Access_Static_Member\Access_Static_Member.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Classes\Access_Static_Member\Static_Class_member.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Classes\Access_Static_Member\Static_Class_Member.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
+		<File
+			RelativePath=".\ClassDiagram1.cd"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>

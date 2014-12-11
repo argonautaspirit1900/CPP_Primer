@@ -14,9 +14,10 @@
 void Utilize_Static_Class_member(void)
 {
     Account ac1;
-    // Account *ac2 = &ac1;
+    Account *ac2 = &ac1;
     double myrate = 0.0;
     
-    // myrate = ac1.rate();    
+    // myrate = ac1.rate();  
+	myrate = ac2->rate();
     return;
 }
