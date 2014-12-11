@@ -14,6 +14,8 @@
       <itemPath>Classes/Screen.h</itemPath>
       <itemPath>Classes/Test_Classes.cpp</itemPath>
       <itemPath>Classes/Test_Classes.h</itemPath>
+      <itemPath>Classes/Window_Mgr.cpp</itemPath>
+      <itemPath>Classes/Window_Mgr.h</itemPath>
       <itemPath>Classes/misc.cpp</itemPath>
       <itemPath>Classes/misc.h</itemPath>
     </logicalFolder>
@@ -72,6 +74,10 @@
       </item>
       <item path="Classes/Test_Classes.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Classes/Window_Mgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Window_Mgr.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Classes/misc.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/misc.h" ex="false" tool="3" flavor2="0">
@@ -126,6 +132,10 @@
       <item path="Classes/Test_Classes.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/Test_Classes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/Window_Mgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/Window_Mgr.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Classes/misc.cpp" ex="false" tool="1" flavor2="0">
       </item>
