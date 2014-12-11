@@ -41,6 +41,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Classes/Sales_item.o \
 	${OBJECTDIR}/Classes/Screen.o \
 	${OBJECTDIR}/Classes/Test_Classes.o \
+	${OBJECTDIR}/Classes/misc.o \
 	${OBJECTDIR}/Study_Class_Main.o \
 	${OBJECTDIR}/Test.o
 
@@ -98,6 +99,11 @@ ${OBJECTDIR}/Classes/Test_Classes.o: Classes/Test_Classes.cpp
 	${MKDIR} -p ${OBJECTDIR}/Classes
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Classes/Test_Classes.o Classes/Test_Classes.cpp
+
+${OBJECTDIR}/Classes/misc.o: Classes/misc.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Classes
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Classes/misc.o Classes/misc.cpp
 
 ${OBJECTDIR}/Study_Class_Main.o: Study_Class_Main.cpp 
 	${MKDIR} -p ${OBJECTDIR}

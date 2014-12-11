@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="95">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
-    <logicalFolder name="f1" displayName="Classes" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="Classes" projectFiles="true">
       <itemPath>Classes/Class_Objects.cpp</itemPath>
       <itemPath>Classes/Class_Objects.h</itemPath>
       <itemPath>Classes/ConstRef.cpp</itemPath>
@@ -14,6 +14,8 @@
       <itemPath>Classes/Screen.h</itemPath>
       <itemPath>Classes/Test_Classes.cpp</itemPath>
       <itemPath>Classes/Test_Classes.h</itemPath>
+      <itemPath>Classes/misc.cpp</itemPath>
+      <itemPath>Classes/misc.h</itemPath>
     </logicalFolder>
     <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
       <itemPath>Test.h</itemPath>
@@ -70,6 +72,10 @@
       </item>
       <item path="Classes/Test_Classes.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Classes/misc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/misc.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Study_Class_Main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Test.cpp" ex="false" tool="1" flavor2="0">
@@ -120,6 +126,10 @@
       <item path="Classes/Test_Classes.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Classes/Test_Classes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Classes/misc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Classes/misc.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Study_Class_Main.cpp" ex="false" tool="1" flavor2="0">
       </item>

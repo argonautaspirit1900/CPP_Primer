@@ -24,11 +24,22 @@ Sales_item::Sales_item(void)
 	}
 #endif
 
-Sales_item::Sales_item(std::istream&)
-{
-	std::cout<<"Please enter the ISBN :"<<std::endl;
-	std::cin>>isbn;
-}
+#if defined (EXPLICIT_CONSTRUCTOR)
+    Sales_item::Sales_item(std::istream &is)
+    /* NOTICE : 
+     * "explicit" is allowed only on constructor declaration in class header.
+     */
+	{
+        std::cout<<"Please enter the ISBN :"<<std::endl;
+		is >> this->isbn;    // Use Sales_item input operator to read the number.
+	}
+#else
+	Sales_item::Sales_item(std::istream&)
+	{
+		std::cout<<"Please enter the ISBN :"<<std::endl;
+		std::cin>>isbn;
+	}
+#endif
 
 double Sales_item::avg_price(void) const
 {
