@@ -19,7 +19,9 @@ void TestCase_Classes_Usage(void)
 
 void Test_Class_Objects(void)
 {
-	Define_Sales_item_Objects();
+	// Define_Sales_item_Objects();
 	
 	// Test_Screen_Class();
+	
+	Test_Sales_item_Class();
 }

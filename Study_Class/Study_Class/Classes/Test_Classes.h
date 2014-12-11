@@ -18,6 +18,8 @@
 			
 			
 			void Test_Class_Objects(void);
+			
+			
 	#ifdef __cplusplus
 		}
 	#endif

@@ -57,3 +57,13 @@ void  Test_Screen_Class(void)
 		blank.display(std::cout);				// calls const version
 	#endif
 }
+
+
+void Test_Sales_item_Class(void)
+{
+    Sales_item item;
+    std::string null_book = "9-999-99999-9"; 
+    
+    item.same_isbn(Sales_item(null_book));
+    item.Print_Information();
+}

@@ -14,5 +14,7 @@
 	void Define_Sales_item_Objects(void);
 
 	void  Test_Screen_Class(void);
+	
+	void Test_Sales_item_Class(void);
 
 #endif	/*  CLASS_OBJECTS_H  */
