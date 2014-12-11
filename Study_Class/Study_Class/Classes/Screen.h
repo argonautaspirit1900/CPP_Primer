@@ -13,6 +13,8 @@
 	#include <string>
 	#include <iostream>
 
+	#include "Window_Mgr.h"
+
 	class Screen
 	{
 	public:
@@ -55,6 +57,13 @@
 		 */
 		Screen& display(std::ostream &os);
 		const Screen& display(std::ostream &os) const;
+		
+		/*=========================================================================================*/
+		/* 友元 (friend) 關係
+		 * 
+		 * 友元機制允許一個類將對其非公有成員的訪問權授予制定的函數或類
+		 */
+		friend class Window_Mgr;	// Window_Mgr member can access the private parts of class Screen
 		
 	private:
 		std::string contents;		
