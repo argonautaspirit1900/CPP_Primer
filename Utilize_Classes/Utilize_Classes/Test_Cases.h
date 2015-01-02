@@ -14,6 +14,7 @@
 	void Execute_General_Test_Cases(void);
 	
 	void TestCase_Box_Class(void);
+	void TestCase_Date_Class(void);
 
 #endif	/* TEST_CASES_H */
 
