@@ -8,6 +8,17 @@
 *.dep
 *.d
 */private/*.*
+*/private/
+*.xml
+*.xcuserdata
+*.xcuserdatad
+*.xcscheme
+*.mk
+*.properties
+
+# Executable file without extension
+class_and_structure
+utilize_classes
 
 # Compiled Object files
 *.slo
@@ -40,5 +51,16 @@
 
 
 /.project
+
+*/xcuserdata/*
+*/dist/*
+*/build/*
+*/private/*
+
+
 /Study_Class/Study_Class/build/
 /Study_Class/Study_Class/dist/
+/Class_and_Structure/build/
+/Class_and_Structure/dist/
+/Utilize_Classes/Utilize_Classes/build/
+/Utilize_Classes/Utilize_Classes/dist/
