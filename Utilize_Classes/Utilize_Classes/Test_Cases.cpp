@@ -8,8 +8,14 @@
  ***************************************************************************************************/
 
 #include "Test_Cases.h"
+#include "classes/Test_Box.h"
 
 void Execute_General_Test_Cases(void)
 {
-    
+    TestCase_Box_Class();
+}
+
+void TestCase_Box_Class(void)
+{
+    Test_Box_Class();
 }

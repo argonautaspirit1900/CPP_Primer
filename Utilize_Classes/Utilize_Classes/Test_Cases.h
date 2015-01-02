@@ -12,6 +12,8 @@
 #define	TEST_CASES_H
 
 	void Execute_General_Test_Cases(void);
+	
+	void TestCase_Box_Class(void);
 
 #endif	/* TEST_CASES_H */
 

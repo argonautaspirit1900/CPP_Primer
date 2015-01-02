@@ -22,8 +22,8 @@
 		int width;
 		int depth;
 	public:
-		Box(int, int, int);
-		~Box(void);
+		Box(int, int, int);		// Constructor function
+		~Box(void);				// Destructor function
 		int volume(void);
 	};
 

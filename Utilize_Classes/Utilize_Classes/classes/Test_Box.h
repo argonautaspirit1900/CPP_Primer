@@ -11,7 +11,7 @@
 #ifndef TEST_BOX_H
 #define	TEST_BOX_H
 
-
+	void Test_Box_Class(void);
 
 #endif	/* TEST_BOX_H */
 
