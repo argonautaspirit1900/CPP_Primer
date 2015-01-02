@@ -38,7 +38,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/Main.o \
 	${OBJECTDIR}/Test_Cases.o \
 	${OBJECTDIR}/classes/Box.o \
-	${OBJECTDIR}/classes/Test_Box.o
+	${OBJECTDIR}/classes/Date.o \
+	${OBJECTDIR}/classes/Test_Box.o \
+	${OBJECTDIR}/classes/Test_Date.o
 
 
 # C Compiler Flags
@@ -80,10 +82,20 @@ ${OBJECTDIR}/classes/Box.o: classes/Box.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/classes/Box.o classes/Box.cpp
 
+${OBJECTDIR}/classes/Date.o: classes/Date.cpp 
+	${MKDIR} -p ${OBJECTDIR}/classes
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/classes/Date.o classes/Date.cpp
+
 ${OBJECTDIR}/classes/Test_Box.o: classes/Test_Box.cpp 
 	${MKDIR} -p ${OBJECTDIR}/classes
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/classes/Test_Box.o classes/Test_Box.cpp
+
+${OBJECTDIR}/classes/Test_Date.o: classes/Test_Date.cpp 
+	${MKDIR} -p ${OBJECTDIR}/classes
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/classes/Test_Date.o classes/Test_Date.cpp
 
 # Subprojects
 .build-subprojects:
