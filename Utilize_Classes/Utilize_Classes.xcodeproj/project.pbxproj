@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F15313C1A56FE8200C4F83B /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F1531381A56FE8200C4F83B /* Date.cpp */; };
+		7F15313D1A56FE8200C4F83B /* Test_Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F15313A1A56FE8200C4F83B /* Test_Date.cpp */; };
 		7F4A32681A5652AC00F84661 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A32671A5652AC00F84661 /* Main.cpp */; };
 		7F4A32731A56AE4000F84661 /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A326F1A56AE4000F84661 /* Box.cpp */; };
 		7F4A32741A56AE4000F84661 /* Test_Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A32711A56AE4000F84661 /* Test_Box.cpp */; };
@@ -26,6 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F1531381A56FE8200C4F83B /* Date.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Date.cpp; path = classes/Date.cpp; sourceTree = "<group>"; };
+		7F1531391A56FE8200C4F83B /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Date.h; path = classes/Date.h; sourceTree = "<group>"; };
+		7F15313A1A56FE8200C4F83B /* Test_Date.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Test_Date.cpp; path = classes/Test_Date.cpp; sourceTree = "<group>"; };
+		7F15313B1A56FE8200C4F83B /* Test_Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test_Date.h; path = classes/Test_Date.h; sourceTree = "<group>"; };
 		7F4A32641A5652AC00F84661 /* Utilize_Classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Utilize_Classes; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4A32671A5652AC00F84661 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		7F4A326F1A56AE4000F84661 /* Box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Box.cpp; path = classes/Box.cpp; sourceTree = "<group>"; };
@@ -77,6 +83,10 @@
 		7F4A326E1A56AE3000F84661 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				7F1531381A56FE8200C4F83B /* Date.cpp */,
+				7F1531391A56FE8200C4F83B /* Date.h */,
+				7F15313A1A56FE8200C4F83B /* Test_Date.cpp */,
+				7F15313B1A56FE8200C4F83B /* Test_Date.h */,
 				7F4A326F1A56AE4000F84661 /* Box.cpp */,
 				7F4A32701A56AE4000F84661 /* Box.h */,
 				7F4A32711A56AE4000F84661 /* Test_Box.cpp */,
@@ -142,9 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4A32741A56AE4000F84661 /* Test_Box.cpp in Sources */,
+				7F15313D1A56FE8200C4F83B /* Test_Date.cpp in Sources */,
 				7F4A32771A56B07A00F84661 /* Test_Cases.cpp in Sources */,
 				7F4A32681A5652AC00F84661 /* Main.cpp in Sources */,
 				7F4A32731A56AE4000F84661 /* Box.cpp in Sources */,
+				7F15313C1A56FE8200C4F83B /* Date.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +270,7 @@
 				7F4A326D1A5652AC00F84661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
