@@ -22,7 +22,9 @@
 		int width;
 		int depth;
 	public:
-		Box(int, int, int);		// Constructor function
+		/* Constructor with default initializers
+		 */
+		Box(int ht=1, int wd=2, int dp=3);		
 		~Box(void);				// Destructor function
 		int volume(void);
 	};

@@ -15,8 +15,16 @@
 
 void Test_Box_Class(void)
 {
+    /* Construct 2 Box objects, 
+     * one with initializers, and one without
+     */
     Box thisbox(4, 7, 9);
+    Box defaultbox;
     int volume = thisbox.volume();
+    
+    /* Get and display the 2 objects' volumes
+     */
     std::cout<<"The volume of this box is "<<volume<<std::endl;
+    std::cout<<"The volume of default box is "<<defaultbox.volume()<<std::endl;
     return;
 }
