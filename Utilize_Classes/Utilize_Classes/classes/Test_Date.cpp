@@ -7,6 +7,8 @@
  * 
  ***************************************************************************/
 
+#include <iostream>
+
 #include "Test_Date.h"
 #include "Date.h"
 
@@ -21,6 +23,18 @@ void Test_ConversionConstructorFunc(void)
     Date dt(now);
     // Display the date
     dt.display();
+    
+    return;
+}
+
+void Test_MemberConversionFunc(void)
+{
+    Date Xmas(12, 25, 2010);
+    long since = Xmas;
+    char sCalender[256] = {0};
+    
+    Xmas.DisplayCalender(sCalender);
+    std::cout<<"From "<<sCalender<<" to today, total "<<since<<" days have already elapsed."<<std::endl;
     
     return;
 }

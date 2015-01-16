@@ -11,6 +11,7 @@
 #define	TEST_DATE_H
 
 	void Test_ConversionConstructorFunc(void);
+	void Test_MemberConversionFunc(void);
 
 #endif	/* TEST_DATE_H */
 
